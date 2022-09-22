@@ -1,0 +1,132 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 95%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 190px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Lexend Deca', sans-serif;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    font-size: 45px;
+}
+
+p {   
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 18px;
+    line-height: 1.5;
+    padding-bottom: 100px;
+}
+
+section {
+    padding: 50px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    color: hsl(0, 44%, 37%);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 30px;  
+    font-size: 16px;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+}
+.sedans-btn {
+    color:  hsl(31, 77%, 52%);
+}
+.sedans-btn:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid  hsl(0, 0%, 95%);
+    padding: 12px 29px;
+    cursor: pointer;
+}
+
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+.suvs-btn {
+    color:hsl(184, 100%, 22%);
+}
+.suvs-btn:hover {
+    background-color:hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid  hsl(0, 0%, 95%);
+    padding: 12px 29px;
+    cursor: pointer;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+.luxury-btn {
+    color:hsl(179, 100%, 13%);
+}
+.luxury-btn:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    border: 3px solid  hsl(0, 0%, 95%);
+    padding: 12px 29px;
+    cursor: pointer;
+}
+
+.attribution {
+    display: flex;
+    font-family: 'Lexend Deca';
+    font-size: 10px;
+    margin-top: 10px;
+}
+
+.attribution a {
+    text-decoration: none;
+    text-align: center;
+    color:hsl(179, 100%, 13%);
+}
+
+
+a:hover {
+   color: hsl(31, 77%, 52%);
+}
+
+
+@media (max-width: 800px) {
+
+body {
+    margin: 20px;
+}
+    
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    padding-bottom: 25px;
+}
+
+
+}
