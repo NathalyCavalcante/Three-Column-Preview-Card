@@ -20,6 +20,6 @@ Users should be able to:
 ### Built with
 
 - HTML5 
-- CSS 
+- SASS/CSS
 - Flexbox
 
